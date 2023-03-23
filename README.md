@@ -1,5 +1,7 @@
 # Cubent
 
+![Cubent](/cubent.svg?raw=true)
+
 Cubent is programming language for creating minecraft datapacks.
 
 ## File structure
