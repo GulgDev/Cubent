@@ -1,0 +1,1 @@
+tellraw @a {"storage":"cubent:storage","nbt":"Arguments[0].Value"}
