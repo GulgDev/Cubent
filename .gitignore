@@ -1,10 +1,2 @@
-/.vscode
-/build
-/dist
-/cubent.png
-/cubent.spec
-/cubent.svg
-/icon.ico
-/icon.png
-/std.png
-/test.anv
+__pycache__/
+*.py[cod]

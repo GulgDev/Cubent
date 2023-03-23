@@ -1,3 +1,0 @@
-namespace cubent {
-    mcfunction "std:lowlevel/print" print(object: Any): Void;
-}

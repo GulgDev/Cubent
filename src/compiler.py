@@ -278,7 +278,7 @@ class Compiler:
         for directory in source_path:
             if not os.path.isdir(directory):
                 return False
-            for filename in glob.glob("**.anv", dir_fd=directory, recursive=True):
+            for filename in glob.glob("**.cubent", dir_fd=directory, recursive=True):
                 if not self.compile_file(os.path.join(directory, os.path.basename(filename))):
                     return False
 

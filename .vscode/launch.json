@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cubent",
+            "type": "python",
+            "request": "launch",
+            "program": "src/main.py",
+            "args": ["C:/Users/user/AppData/Roaming/.minecraft/saves/Cubent test/datapacks/test", "latest", "-s", ".", "-s", "std", "-i", "resources/pack.png"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
