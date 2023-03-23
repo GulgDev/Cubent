@@ -1,11 +1,10 @@
 /.vscode
 /build
+/dist
 /cubent.png
 /cubent.spec
 /cubent.svg
-/dist
 /icon.ico
 /icon.png
 /std.png
 /test.anv
-/.gitignore
