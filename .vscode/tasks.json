@@ -2,17 +2,11 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "PyInstaller: build exe",
+            "label": "Build Cubent executable",
             "type": "shell",
-            "command": "pyinstaller",
             "args": [
-                "src/main.py",
-                "-n=cubent",
-                "-i=${workspaceFolder}/icon.ico",
-                "-y",
-                "-F",
-                "--add-data='resources/*;resources'",
-                "--add-data='std/*;std'"
+                "pyinstaller src/main.py -n=cubent -i=${workspaceFolder}/icon.ico -y -F",
+                "7z "
             ],
             "group": {
                 "kind": "build",
